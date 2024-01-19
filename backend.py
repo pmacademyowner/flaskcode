@@ -2,19 +2,7 @@ from flask import Flask,render_template, redirect, url_for, request
 from s3details import s3DownloadUpload
  
 app = Flask(__name__)
-'''
-@app.route('/')
-def hello_world():
-    return 'Hello World'
-
-@app.route('/insert')
-def insertDetails():
-    return render_template('index.html', message='Hello, Flask!')
-
-@app.route('/hello/<name>')
-def hello_name(name):
-   return 'Hello %s!' % name
-'''
+context = ('../certificate/pmacademyy_com.crt', '../certificate/pmacademyy.com.key')
 
 @app.after_request
 def add_header(r):
@@ -30,7 +18,6 @@ def add_header(r):
     r.headers["Expires"] = "0"
     r.headers['Cache-Control'] = 'public, max-age=0'
     return r
-
 
 @app.route('/', methods=['GET','POST'])
 def index():
@@ -63,4 +50,6 @@ def register():
 
 # main driver function
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port="80", debug=True)
+    #app.run(host='0.0.0.0', port="443", debug=True, ssl_context=context)
+    #app.run(host='0.0.0.0', ssl_context=context, threaded=True, debug=True )
+    app.run(host="pmacademyy.com")
