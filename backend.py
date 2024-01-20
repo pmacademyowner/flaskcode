@@ -4,6 +4,7 @@ from s3details import s3DownloadUpload
 app = Flask(__name__)
 context = ('../certificate/pmacademyy_com.crt', '../certificate/pmacademyy.com.key')
 
+'''
 @app.after_request
 def add_header(r):
     """
@@ -18,7 +19,7 @@ def add_header(r):
     r.headers["Expires"] = "0"
     r.headers['Cache-Control'] = 'public, max-age=0'
     return r
-
+'''
 @app.route('/', methods=['GET','POST'])
 def index():
     return render_template('mainpage/index.html')
