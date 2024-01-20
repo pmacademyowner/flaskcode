@@ -19,6 +19,7 @@ def add_header(r):
     r.headers['Cache-Control'] = 'public, max-age=0'
     return r
 
+'''
 @app.route('/', methods=['GET','POST'])
 def index():
     return render_template('mainpage/index.html')
@@ -26,7 +27,7 @@ def index():
 @app.route('/register', methods=['GET','POST'])
 def form():
     return render_template('register/register.html')
-
+'''
 
 @app.route('/submit', methods=['POST'])
 def submit():
@@ -39,5 +40,5 @@ def submit():
 # main driver function
 if __name__ == '__main__':
     #app.run(host='0.0.0.0', port="443", debug=True, ssl_context=context)
-    app.run(host='0.0.0.0', ssl_context=context, threaded=True, debug=True )
-    #app.run(host="0.0.0.0", debug=True)
+    app.run(host='0.0.0.0',port="8000", ssl_context=context, threaded=True, debug=True )
+    #app.run(host="0.0.0.0")

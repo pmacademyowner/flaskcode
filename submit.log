@@ -1,0 +1,140 @@
+nohup: ignoring input
+ * Serving Flask app 'submitDetails'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:8000
+ * Running on https://172.31.11.94:8000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 627-428-303
+184.147.170.168 - - [20/Jan/2024 03:40:22] "POST /submit HTTP/1.1" 200 -
+184.147.170.168 - - [20/Jan/2024 03:40:23] "GET /static/css/styles.css HTTP/1.1" 200 -
+184.147.170.168 - - [20/Jan/2024 03:40:23] "GET /static/assets/img/logo.png HTTP/1.1" 200 -
+184.147.170.168 - - [20/Jan/2024 03:40:23] "GET /static/assets/img/prashanth-formal.jpg HTTP/1.1" 200 -
+184.147.170.168 - - [20/Jan/2024 03:40:23] "GET /static/assets/img/praveen-casual.jpeg HTTP/1.1" 200 -
+184.147.170.168 - - [20/Jan/2024 03:40:23] "GET /js/scripts.js HTTP/1.1" 404 -
+184.147.170.168 - - [20/Jan/2024 03:40:23] "GET /static/assets/img/logo-no-text.png HTTP/1.1" 200 -
+184.147.170.168 - - [20/Jan/2024 03:40:23] "GET /static/assets/img/logo-no-text.png HTTP/1.1" 304 -
+184.147.170.168 - - [20/Jan/2024 03:43:44] "POST /submit HTTP/1.1" 200 -
+184.147.170.168 - - [20/Jan/2024 03:43:44] "GET /static/css/styles.css HTTP/1.1" 200 -
+184.147.170.168 - - [20/Jan/2024 03:43:44] "GET /static/assets/img/logo.png HTTP/1.1" 200 -
+184.147.170.168 - - [20/Jan/2024 03:43:44] "GET /static/assets/img/prashanth-formal.jpg HTTP/1.1" 200 -
+184.147.170.168 - - [20/Jan/2024 03:43:44] "GET /static/assets/img/praveen-casual.jpeg HTTP/1.1" 200 -
+184.147.170.168 - - [20/Jan/2024 03:43:44] "GET /js/scripts.js HTTP/1.1" 404 -
+184.147.170.168 - - [20/Jan/2024 03:43:44] "GET /static/assets/img/logo-no-text.png HTTP/1.1" 200 -
+184.147.170.168 - - [20/Jan/2024 03:43:45] "GET /static/assets/img/logo-no-text.png HTTP/1.1" 304 -
+184.147.170.168 - - [20/Jan/2024 03:53:49] "POST /submit HTTP/1.1" 200 -
+184.147.170.168 - - [20/Jan/2024 03:53:49] "GET /static/css/styles.css HTTP/1.1" 200 -
+184.147.170.168 - - [20/Jan/2024 03:53:49] "GET /static/assets/img/logo.png HTTP/1.1" 200 -
+184.147.170.168 - - [20/Jan/2024 03:53:49] "GET /static/assets/img/prashanth-formal.jpg HTTP/1.1" 200 -
+184.147.170.168 - - [20/Jan/2024 03:53:49] "GET /static/assets/img/praveen-casual.jpeg HTTP/1.1" 200 -
+184.147.170.168 - - [20/Jan/2024 03:53:49] "GET /js/scripts.js HTTP/1.1" 404 -
+184.147.170.168 - - [20/Jan/2024 03:53:49] "GET /static/assets/img/logo-no-text.png HTTP/1.1" 200 -
+184.147.170.168 - - [20/Jan/2024 03:53:49] "GET /static/assets/img/logo-no-text.png HTTP/1.1" 304 -
+ * Detected change in '/home/ubuntu/flaskcode/backend.py', reloading
+praveen.gunasekar@aol.com
+praveen.gunasekar@aol.com
+praveen.gunasekar@aol.com
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 627-428-303
+184.147.170.168 - - [20/Jan/2024 03:58:33] "POST /submit HTTP/1.1" 200 -
+184.147.170.168 - - [20/Jan/2024 03:58:33] "GET /static/css/styles.css HTTP/1.1" 200 -
+184.147.170.168 - - [20/Jan/2024 03:58:33] "GET /static/assets/img/logo.png HTTP/1.1" 200 -
+184.147.170.168 - - [20/Jan/2024 03:58:33] "GET /static/assets/img/prashanth-formal.jpg HTTP/1.1" 200 -
+184.147.170.168 - - [20/Jan/2024 03:58:33] "GET /static/assets/img/praveen-casual.jpeg HTTP/1.1" 200 -
+184.147.170.168 - - [20/Jan/2024 03:58:33] "GET /js/scripts.js HTTP/1.1" 404 -
+184.147.170.168 - - [20/Jan/2024 03:58:33] "GET /static/assets/img/logo-no-text.png HTTP/1.1" 200 -
+184.147.170.168 - - [20/Jan/2024 03:58:33] "GET /static/assets/img/logo-no-text.png HTTP/1.1" 304 -
+184.147.170.168 - - [20/Jan/2024 04:02:08] "POST /submit HTTP/1.1" 200 -
+184.147.170.168 - - [20/Jan/2024 04:02:09] "GET /static/css/styles.css HTTP/1.1" 200 -
+184.147.170.168 - - [20/Jan/2024 04:02:09] "GET /static/assets/img/logo.png HTTP/1.1" 200 -
+184.147.170.168 - - [20/Jan/2024 04:02:09] "GET /static/assets/img/prashanth-formal.jpg HTTP/1.1" 200 -
+184.147.170.168 - - [20/Jan/2024 04:02:09] "GET /static/assets/img/praveen-casual.jpeg HTTP/1.1" 200 -
+184.147.170.168 - - [20/Jan/2024 04:02:09] "GET /js/scripts.js HTTP/1.1" 404 -
+184.147.170.168 - - [20/Jan/2024 04:02:09] "GET /static/assets/img/logo-no-text.png HTTP/1.1" 200 -
+184.147.170.168 - - [20/Jan/2024 04:02:09] "GET /static/assets/img/logo-no-text.png HTTP/1.1" 304 -
+184.147.170.168 - - [20/Jan/2024 04:19:48] "POST /submit HTTP/1.1" 200 -
+184.147.170.168 - - [20/Jan/2024 04:19:48] "GET /static/css/styles.css HTTP/1.1" 200 -
+184.147.170.168 - - [20/Jan/2024 04:19:48] "GET /static/assets/img/logo.png HTTP/1.1" 200 -
+184.147.170.168 - - [20/Jan/2024 04:19:48] "GET /js/scripts.js HTTP/1.1" 404 -
+184.147.170.168 - - [20/Jan/2024 04:19:49] "GET /static/assets/img/prashanth-formal.jpg HTTP/1.1" 200 -
+184.147.170.168 - - [20/Jan/2024 04:19:49] "GET /static/assets/img/praveen-casual.jpeg HTTP/1.1" 200 -
+184.147.170.168 - - [20/Jan/2024 04:19:49] "GET /static/assets/img/logo-no-text.png HTTP/1.1" 200 -
+167.94.138.52 - - [20/Jan/2024 07:11:24] "GET / HTTP/1.1" 404 -
+167.94.138.52 - - [20/Jan/2024 07:11:27] "GET / HTTP/1.1" 404 -
+167.94.138.52 - - [20/Jan/2024 07:11:28] code 505, message Invalid HTTP version (2.0)
+167.94.138.52 - - [20/Jan/2024 07:11:28] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+137.184.16.152 - - [20/Jan/2024 09:07:09] "GET /ab2g HTTP/1.1" 404 -
+137.184.16.152 - - [20/Jan/2024 09:07:09] "GET /ab2h HTTP/1.1" 404 -
+137.184.16.152 - - [20/Jan/2024 09:07:09] "GET / HTTP/1.1" 404 -
+137.184.16.152 - - [20/Jan/2024 09:07:09] "GET / HTTP/1.1" 404 -
+167.248.133.52 - - [20/Jan/2024 14:35:36] "GET / HTTP/1.1" 404 -
+167.248.133.52 - - [20/Jan/2024 14:35:40] "GET / HTTP/1.1" 404 -
+167.248.133.52 - - [20/Jan/2024 14:35:40] code 505, message Invalid HTTP version (2.0)
+167.248.133.52 - - [20/Jan/2024 14:35:40] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+43.133.129.69 - - [20/Jan/2024 15:37:35] "GET / HTTP/1.1" 404 -
+36.99.136.129 - - [20/Jan/2024 15:37:55] "GET / HTTP/1.1" 404 -
+142.188.33.242 - - [20/Jan/2024 16:04:16] "GET / HTTP/1.0" 404 -
+142.188.33.242 - - [20/Jan/2024 16:04:16] "OPTIONS / HTTP/1.0" 404 -
+142.188.33.242 - - [20/Jan/2024 16:04:16] code 400, message Bad request version ('RTSP/1.0')
+142.188.33.242 - - [20/Jan/2024 16:04:16] "OPTIONS / RTSP/1.0" HTTPStatus.BAD_REQUEST -
+142.188.33.242 - - [20/Jan/2024 16:04:21] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+142.188.33.242 - - [20/Jan/2024 16:04:21] "\x80\x00\x00(rþ\x1d\x13\x00\x00\x00\x00\x00\x00\x00\x02\x00\x01\x86 \x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+142.188.33.242 - - [20/Jan/2024 16:04:26] code 400, message Bad HTTP/0.9 request type ('\x00')
+142.188.33.242 - - [20/Jan/2024 16:04:26] "\x00\x1e\x00\x06\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x07version\x04bind\x00\x00\x10\x00\x03" HTTPStatus.BAD_REQUEST -
+142.188.33.242 - - [20/Jan/2024 16:04:31] code 400, message Bad HTTP/0.9 request type ('\x00')
+142.188.33.242 - - [20/Jan/2024 16:04:31] "\x00\x0c\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+142.188.33.242 - - [20/Jan/2024 16:04:31] code 400, message Bad request syntax ('HELP')
+142.188.33.242 - - [20/Jan/2024 16:04:31] "HELP" HTTPStatus.BAD_REQUEST -
+142.188.33.242 - - [20/Jan/2024 16:04:31] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+142.188.33.242 - - [20/Jan/2024 16:04:31] "\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00" HTTPStatus.BAD_REQUEST -
+142.188.33.242 - - [20/Jan/2024 16:04:31] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+142.188.33.242 - - [20/Jan/2024 16:04:31] "\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie: mstshash=nmap" HTTPStatus.BAD_REQUEST -
+142.188.33.242 - - [20/Jan/2024 16:04:31] code 400, message Bad request version ('\x00/\x00')
+142.188.33.242 - - [20/Jan/2024 16:04:31] "\x16\x03\x00\x00i\x01\x00\x00e\x03\x03U\x1c§ärandom1random2random3random4\x00\x00\x0c\x00/\x00" HTTPStatus.BAD_REQUEST -
+142.188.33.242 - - [20/Jan/2024 16:04:32] code 400, message Bad request syntax ('\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01')
+142.188.33.242 - - [20/Jan/2024 16:04:32] "\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01" HTTPStatus.BAD_REQUEST -
+142.188.33.242 - - [20/Jan/2024 16:04:37] code 400, message Bad request version ('0.12\x00')
+142.188.33.242 - - [20/Jan/2024 16:04:37] "\x00\x00\x00¤ÿSMBr\x00\x00\x00\x00\x08\x01@\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x06\x00\x00\x01\x00\x00\x81\x00\x02PC NETWORK PROGRAM 1.0\x00\x02MICROSOFT NETWORKS 1.03\x00\x02MICROSOFT NETWORKS 3.0\x00\x02LANMAN1.0\x00\x02LM1.2X002\x00\x02Samba\x00\x02NT LANMAN 1.0\x00\x02NT LM 0.12\x00" HTTPStatus.BAD_REQUEST -
+142.188.33.242 - - [20/Jan/2024 16:04:42] code 400, message Bad HTTP/0.9 request type ('l\x00')
+142.188.33.242 - - [20/Jan/2024 16:04:42] "l\x00\x0b\x00\x00\x00\x00\x00\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+142.188.33.242 - - [20/Jan/2024 16:04:42] "GET /nice%20ports,/Trinity.txt.bak HTTP/1.0" 404 -
+142.188.33.242 - - [20/Jan/2024 16:04:42] code 400, message Bad request syntax ('\x01default')
+142.188.33.242 - - [20/Jan/2024 16:04:42] "\x01default" HTTPStatus.BAD_REQUEST -
+142.188.33.242 - - [20/Jan/2024 16:04:42] code 400, message Bad request syntax ('0\x84\x00\x00\x00-\x02\x01\x07c\x84\x00\x00\x00$\x04\x00')
+142.188.33.242 - - [20/Jan/2024 16:04:42] "0\x84\x00\x00\x00-\x02\x01\x07c\x84\x00\x00\x00$\x04\x00" HTTPStatus.BAD_REQUEST -
+142.188.33.242 - - [20/Jan/2024 16:04:47] code 400, message Bad HTTP/0.9 request type ('0')
+142.188.33.242 - - [20/Jan/2024 16:04:47] "0\x0c\x02\x01\x01`\x07\x02\x01\x02\x04\x00\x80\x00" HTTPStatus.BAD_REQUEST -
+142.188.33.242 - - [20/Jan/2024 16:04:47] code 400, message Bad request version ('SIP/2.0')
+142.188.33.242 - - [20/Jan/2024 16:04:47] "OPTIONS sip:nm SIP/2.0" HTTPStatus.BAD_REQUEST -
+142.188.33.242 - - [20/Jan/2024 16:04:52] code 400, message Bad request syntax ('TNMP\x04\x00\x00\x00TNME\x00\x00\x04\x00')
+142.188.33.242 - - [20/Jan/2024 16:04:52] "TNMP\x04\x00\x00\x00TNME\x00\x00\x04\x00" HTTPStatus.BAD_REQUEST -
+142.188.33.242 - - [20/Jan/2024 16:04:57] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00')
+142.188.33.242 - - [20/Jan/2024 16:04:57] "\x03\x00\x00\x0b\x06à\x00\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+142.188.33.242 - - [20/Jan/2024 16:05:02] code 400, message Bad request syntax ('DmdT\x00\x00\x00\x17\x00\x00\x00\x01\x00\x00\x00\x00\x11\x11\x00ÿ\x01ÿ\x13')
+142.188.33.242 - - [20/Jan/2024 16:05:02] "DmdT\x00\x00\x00\x17\x00\x00\x00\x01\x00\x00\x00\x00\x11\x11\x00ÿ\x01ÿ\x13" HTTPStatus.BAD_REQUEST -
+142.188.33.242 - - [20/Jan/2024 16:05:07] code 400, message Bad HTTP/0.9 request type (':\x00\x00\x00/\x00\x00\x00\x02\x00\x00@\x02\x0f\x00\x01\x00=\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00/\x00\x00\x00\x00\x00\x00\x00\x00\x00@')
+142.188.33.242 - - [20/Jan/2024 16:05:07] ":\x00\x00\x00/\x00\x00\x00\x02\x00\x00@\x02\x0f\x00\x01\x00=\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00/\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x1f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+142.188.33.242 - - [20/Jan/2024 16:05:12] code 400, message Bad request syntax ('JRMI\x00\x02K')
+142.188.33.242 - - [20/Jan/2024 16:05:12] "JRMI\x00\x02K" HTTPStatus.BAD_REQUEST -
+142.188.33.242 - - [20/Jan/2024 16:05:18] code 400, message Bad request version ('\x00{\x000\x000\x000\x000\x00A\x00A\x000\x000\x00-\x000\x00A\x000\x000\x00-\x000\x000\x00a\x000\x00-\x00A\x00A\x000\x00A\x00-\x000\x000\x000\x000\x00A\x000\x00A\x00A\x000\x00A\x00A\x000\x00}\x00\x00\x00àmß_')
+142.188.33.242 - - [20/Jan/2024 16:05:18] "\x01\x00\x00ýÎú\x0b° \x00\x00\x00MMS\x14\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x12\x00\x00\x00\x01\x00\x03\x00ðððð\x0b\x00\x04\x00\x1c\x00\x03\x00N\x00S\x00P\x00l\x00a\x00y\x00e\x00r\x00/\x009\x00.\x000\x00.\x000\x00.\x002\x009\x008\x000\x00;\x00 \x00{\x000\x000\x000\x000\x00A\x00A\x000\x000\x00-\x000\x00A\x000\x000\x00-\x000\x000\x00a\x000\x00-\x00A\x00A\x000\x00A\x00-\x000\x000\x000\x000\x00A\x000\x00A\x00A\x000\x00A\x00A\x000\x00}\x00\x00\x00àmß_" HTTPStatus.BAD_REQUEST -
+142.188.33.242 - - [20/Jan/2024 16:05:23] code 400, message Bad HTTP/0.9 request type ('\x00Z\x00\x00\x01\x00\x00\x00\x016\x01,\x00\x00\x08\x00\x7fÿ\x7f\x08\x00\x00\x00\x01\x00')
+142.188.33.242 - - [20/Jan/2024 16:05:23] "\x00Z\x00\x00\x01\x00\x00\x00\x016\x01,\x00\x00\x08\x00\x7fÿ\x7f\x08\x00\x00\x00\x01\x00 \x00:\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x004æ\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00(CONNECT_DATA=(COMMAND=version))" HTTPStatus.BAD_REQUEST -
+142.188.33.242 - - [20/Jan/2024 16:05:28] code 400, message Bad request version ('\x03\x00(\x00\x04ÿ\x08\x00\x01U\x00\x00\x00MSSQLServer\x00H\x0f\x00\x00')
+142.188.33.242 - - [20/Jan/2024 16:05:28] "\x12\x01\x004\x00\x00\x00\x00\x00\x00\x15\x00\x06\x01\x00\x1b\x00\x01\x02\x00\x1c\x00\x0c\x03\x00(\x00\x04ÿ\x08\x00\x01U\x00\x00\x00MSSQLServer\x00H\x0f\x00\x00" HTTPStatus.BAD_REQUEST -
+142.188.33.242 - - [20/Jan/2024 16:05:33] code 400, message Bad request syntax ('\x00\x03\x00\x01\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x00\x0f\x00')
+142.188.33.242 - - [20/Jan/2024 16:05:33] "\x00\x03\x00\x01\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x00\x0f\x00" HTTPStatus.BAD_REQUEST -
+142.188.33.242 - - [20/Jan/2024 16:05:38] code 400, message Bad request syntax ('GIOP\x01\x00\x01\x00$\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x06\x00\x00\x00abcdef\x00\x00\x04\x00\x00\x00get\x00\x00\x00\x00\x00')
+142.188.33.242 - - [20/Jan/2024 16:05:38] "GIOP\x01\x00\x01\x00$\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x06\x00\x00\x00abcdef\x00\x00\x04\x00\x00\x00get\x00\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+142.188.33.242 - - [20/Jan/2024 16:05:38] "POST /sdk HTTP/1.1" 404 -
+142.188.33.242 - - [20/Jan/2024 16:05:38] "GET /nmaplowercheck1705766738 HTTP/1.1" 404 -
+142.188.33.242 - - [20/Jan/2024 16:05:38] "GET /HNAP1 HTTP/1.1" 404 -
+142.188.33.242 - - [20/Jan/2024 16:05:38] "GET /evox/about HTTP/1.1" 404 -
+142.188.33.242 - - [20/Jan/2024 16:05:38] "GET / HTTP/1.0" 404 -
+142.188.33.242 - - [20/Jan/2024 16:05:39] "GET / HTTP/1.1" 404 -
+142.188.33.242 - - [20/Jan/2024 16:11:04] "GET / HTTP/1.1" 404 -
+142.188.33.242 - - [20/Jan/2024 16:11:05] "GET /favicon.ico HTTP/1.1" 404 -
